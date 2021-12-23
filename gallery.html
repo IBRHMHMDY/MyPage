@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="My FrontEnd Developer">
+        <meta name="author" content="Ibrahim Hamdy">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/sliders.css">
+        <title>My Personal Page</title>
+    </head>
+    <body>
+        <main>
+            <section id="header">
+                <div id="branding" style="flex-grow:8;">
+                    <h1><a href="index.html"><i class="fa fa-user-circle"></i> <span class="highlight">Ibrahim Hamdy</span></a></h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li ><a href="index.html">Home</a></li>
+                        <li class="current"><a href="gallery.html">Gallery</a></li>
+                        <li><a href="ar/gallery.html">AR</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <section id="slider">
+                <div id="wrapper">
+                    <div class="content">
+                        <img src="imgs/00.png" alt="No Image">
+                    </div>
+                    <div class="content">
+                        <img src="imgs/01.png" alt="No Image">
+                    </div>
+                    <div class="content">
+                        <img src="imgs/02.png" alt="No Image">
+                    </div>
+                    <div class="content">
+                        <img src="imgs/03.png" alt="No Image">
+                    </div>
+                </div>
+                <div id="navLinks">
+                    <ul>
+                        <li class="itemLink" data-pos="0"></li>
+                        <li class="itemLink" data-pos="1"></li>
+                        <li class="itemLink" data-pos="2"></li>
+                        <li class="itemLink" data-pos="3"></li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <script src="js/sliders.js"></script>
+    </body>
+</html>
